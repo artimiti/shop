@@ -1,0 +1,41 @@
+html, body{
+  height: 100%;
+  max-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: azure;
+}
+.navbar{
+  margin-bottom: 0;
+}
+.wrapper{
+  padding-bottom: 100px;
+}
+.footer{
+  margin-bottom: -100px;
+  background-color: white;
+  height: 200px;
+}
+.section-top{
+  margin: 20px;
+}
+.section{
+  padding: 50px 0;
+}
+.section h1{
+  margin-bottom: 40px;
+}
+.product-item{
+  height: 600px;
+  background-color: white;
+  border: 1px solid lightgray;
+  position: relative;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.add-to-card-btn{
+  position: absolute;
+  bottom: 15px;
+  left: 80px;
+  transform: translateX(-50%);
+}
