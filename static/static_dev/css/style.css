@@ -8,12 +8,18 @@ html, body{
   margin-bottom: 0;
 }
 .wrapper{
-  padding-bottom: 100px;
+  min-height: 100%;
+}
+.wrapper-content{
+  overflow: auto;
+  padding-bottom: 180px;
 }
 .footer{
-  margin-bottom: -100px;
-  background-color: white;
+  position: relative;
+  margin-top: -100px;
   height: 200px;
+  clear: both;
+  background-color: white;
 }
 .section-top{
   margin: 20px;

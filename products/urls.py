@@ -18,4 +18,5 @@ from . import views
 
 urlpatterns = [
     #path('landing/', views.landing, name='landing')
+    path('product/<str:product_id>/', views.product, name='product')
 ]
